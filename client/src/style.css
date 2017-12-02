@@ -1,0 +1,60 @@
+html {
+	background: #FFFFFF;
+}
+
+html {
+  font-size: calc(9px + 0.3vw);
+  height: 100%;
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+body {
+	background: #FFFFFF;
+	height: 100%
+}
+
+* {
+	box-sizing: border-box;
+}
+
+button, li, div, a {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	flex-shrink: 0;
+	/*user-select: none;*/
+	margin: 0;
+	padding: 0;
+	align-items: stretch;
+}
+
+a {
+	text-decoration: none;
+}
+
+.app__root {
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#root {
+	height: 100%;
+}
+#root > div {
+	height: 100%;
+}
+.app__root {
+	height: 100%;
+}
+
